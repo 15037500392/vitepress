@@ -4,6 +4,7 @@ import { fundFinancial } from "./router/fundFinancial.mjs";
 export default defineConfig({
   title: "非现机具文档管理平台",
   description: "A VitePress Site",
+  base:'./vitepress',
   themeConfig: {
     search: {
       provider: 'local'
